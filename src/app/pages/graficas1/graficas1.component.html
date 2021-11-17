@@ -1,1 +1,36 @@
-<p>graficas1 works!</p>
+<script scr="node_modules/chart.js/src/chart.js"></script>
+<div class="row">
+
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+                <app-grafico-dona [leyenda]="graficos.graficos1.leyenda" [chartLabels]="graficos.graficos1.labels" [chartData]="graficos.graficos1.data" [chartType]="graficos.graficos1.type"></app-grafico-dona>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+                <app-grafico-dona [leyenda]="graficos.graficos2.leyenda" [chartLabels]="graficos.graficos2.labels" [chartData]="graficos.graficos2.data" [chartType]="graficos.graficos2.type"></app-grafico-dona>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+                <app-grafico-dona [leyenda]="graficos.graficos3.leyenda" [chartLabels]="graficos.graficos3.labels" [chartData]="graficos.graficos3.data" [chartType]="graficos.graficos3.type"></app-grafico-dona>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-6">
+        <div class="card">
+            <div class="card-body">
+                <app-grafico-dona [leyenda]="graficos.graficos4.leyenda" [chartLabels]="graficos.graficos4.labels" [chartData]="graficos.graficos4.data" [chartType]="graficos.graficos4.type"></app-grafico-dona>
+            </div>
+        </div>
+    </div>
+
+</div>
