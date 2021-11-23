@@ -12,7 +12,7 @@ export class GraficoDonaComponent implements OnInit {
   @Input() chartLabels: Label[] = [];
   @Input() chartData: SingleDataSet = [];
   @Input() chartType: ChartType = 'doughnut' ;
-  @Input() leyenda: string = '' ;
+  @Input() leyenda: string = 'no esta mostrando nada' ;
 
 
   constructor() { }

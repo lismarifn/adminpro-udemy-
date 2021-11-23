@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './graficas1.component.html',
   styles: [
   ]
-//  styleUrls: ['./doughnut-chart.component.scss']
+
 })
 
  export class Graficas1Component implements OnInit {
